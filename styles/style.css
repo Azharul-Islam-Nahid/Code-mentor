@@ -18,6 +18,10 @@ body {
         object-position: center;
     }
 
+    .nav-button {
+        display: none;
+    }
+
     .mobile {
         display: flex;
         width: 100%;
@@ -26,7 +30,11 @@ body {
     }
 
     .mobile-button {
-        display: none !important;
+        display: none;
+    }
+
+    .course-brand {
+        display: none;
     }
 
 
