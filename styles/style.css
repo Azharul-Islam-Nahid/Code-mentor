@@ -25,24 +25,4 @@
          object-position: center;
      }
 
-     .nav-button {
-         display: none;
-     }
-
-     .mobile {
-         display: flex;
-         width: 100%;
-         align-items: center;
-         flex-direction: column;
-     }
-
-     .mobile-button {
-         display: none;
-     }
-
-     .course-brand {
-         display: none;
-     }
-
-
  }
