@@ -1,41 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #1E1E1E;
-}
+ /*-----------------
+ ---- Google Font---
+ -----------------*/
 
 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@media only screen and (max-width:786px) {
-    .carousel-item {
-        height: 80vh;
-    }
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #1E1E1E;
+ }
 
-    .carousel-item img {
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
+ /*---------------------
+---Extra small device--
+----------quary------*/
 
-    .nav-button {
-        display: none;
-    }
+ @media only screen and (max-width:786px) {
+     .carousel-item {
+         height: 80vh;
+     }
 
-    .mobile {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        flex-direction: column;
-    }
+     .carousel-item img {
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+     }
 
-    .mobile-button {
-        display: none;
-    }
+     .nav-button {
+         display: none;
+     }
 
-    .course-brand {
-        display: none;
-    }
+     .mobile {
+         display: flex;
+         width: 100%;
+         align-items: center;
+         flex-direction: column;
+     }
+
+     .mobile-button {
+         display: none;
+     }
+
+     .course-brand {
+         display: none;
+     }
 
 
-}
+ }
